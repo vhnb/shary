@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: calc(100vh - 70px);
+    background-color: #000000;
+    padding: 12px 12px;
+}
+
+.container h1{
+    color: #e05877;
+    font-size: 80px;
+}
+.container h2{
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+.container p{
+    color: #aaaaaa;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.container a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px ;
+    border-radius: 8px;
+    transition: 0.3s;
+    color: #e05877;
+    text-decoration: none;
+}
+.container .iconBack{
+    margin-right: 10px;
+}
