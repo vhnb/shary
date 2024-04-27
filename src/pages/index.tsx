@@ -19,7 +19,9 @@ export default function Home({ links }: HomeProps) {
       <Head>
         <title>Share with Shary</title>
       </Head>
-      <p className={styles.infoHomeSpan}><span>+{links}</span> Shared links</p>
+      <p style={{
+        marginTop:'15px',
+      }} className={styles.infoHomeSpan}><span>+{links}</span> Shared links</p>
       <h1>Share with <span>Shary</span></h1>
       <p>The place where you can share your profile with ease! And do you know the best? It's easy to make and super quick!</p>
       <button onClick={() => signIn("google")}>Start now</button>
