@@ -15,10 +15,27 @@
   width: 100%;
   max-width: 600px;
   line-height: 100%;
+  margin-top: 15px;
 }
 
-.container h1 span{
+.container .containerEstatisctic{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 20px;
+}
+
+.container .containerEstatisctic .estatisticSpan{
   color: #e05877;
+  font-size: 40px;
+  font-weight: 600;
+  margin-right: 12px;
+}
+
+.container .containerEstatisctic .infoHomeSpan{
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 0;
 }
 
 .container p{
@@ -26,7 +43,7 @@
   width: 100%;
   max-width: 500px;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 .container button{
@@ -38,7 +55,7 @@
   font-size: 15px;
   font-weight: 600;
   transition: 0.5s;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .container button:hover{
@@ -47,11 +64,6 @@
   filter: drop-shadow(0px 0px 50px #e0587873);
 }
 
-.container .infoHomeSpan{
-  color: #fff;
-  margin-bottom: 25px;
-  font-size: 20px;
-}
-.container .infoHomeSpan span{
+.container span{
   color: #e05877;
 }
