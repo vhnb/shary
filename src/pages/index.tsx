@@ -9,8 +9,8 @@ import { collection, getDocs } from 'firebase/firestore';
 
 import { db } from '../services/firebaseConnection'
 
-interface HomeProps{
-  links:number
+interface HomeProps {
+  links: number
 }
 
 export default function Home({ links }: HomeProps) {
@@ -19,9 +19,10 @@ export default function Home({ links }: HomeProps) {
       <Head>
         <title>Share with Shary</title>
       </Head>
-      <p style={{
-        marginTop:'15px',
-      }} className={styles.infoHomeSpan}><span>+{links}</span> Shared links</p>
+      <div className={styles.containerEstatisctic}>
+        <span className={styles.estatisticSpan}>+{links}</span>
+        <p className={styles.infoHomeSpan}>Shared links</p>
+      </div>
       <h1>Share with <span>Shary</span></h1>
       <p>The place where you can share your profile with ease! And do you know the best? It's easy to make and super quick!</p>
       <button onClick={() => signIn("google")}>Start now</button>
