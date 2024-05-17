@@ -65,7 +65,6 @@ export default function Task() {
                     <Link href={`https://${item.link}`} target='blank' key={item.id} className={styles.containerLink}>
                         <FaLink />
                         <p>{item.link}</p>
-                        <p>{item.created}</p>
                     </Link>
                 ))}
             </div>
